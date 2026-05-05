@@ -8,8 +8,8 @@ def load_graph():
     return app
 
 # ── Page config ───────────────────────────────────────────────────────────────
-st.set_page_config(page_title="LangGraph Chatbot", page_icon="🤖", layout="centered")
-st.title("🤖 LangGraph Chatbot")
+st.set_page_config(page_title="LangGraph Chatbot",layout="centered")
+st.title("LangGraph Chatbot")
 
 # ── Session state ─────────────────────────────────────────────────────────────
 if "messages" not in st.session_state:
